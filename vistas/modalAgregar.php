@@ -9,7 +9,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form id="frmAgregaAlumno" method="post" onsubmit="return agregarNuevo()">
+        <form id="frmAgregaAlumno"  method="POST" onsubmit="return agregarNuevoAlumno()">
 
             <label for="nombre">Nombre del alumnno</label>
             <input type="text" class="form-control" id="nombre" name="nombre" required  >
@@ -18,15 +18,15 @@
             <input type="text" class="form-control" id="apellido" name="apellido" required  >
 
             <label for="cal1">Calificacion 1er bimestre</label>
-            <input type="text" class="form-control" id="cal1" name="cal1" required  >
+            <input type="text" class="form-control" id="calificacion1" name="calificacion1" required  >
 
-            <label for="cal2">Calificacion 1er bimestre</label>
-            <input type="text" class="form-control" id="cal2" name="cal2" required >
+            <label for="cal2">Calificacion 2do bimestre</label>
+            <input type="text" class="form-control" id="calificacion2" name="calificacion2" required >
 
-            <label for="cal3">Calificacion 1er bimestre </label>
-            <input type="text" class="form-control" id="cal3" name="cal3" required>
+            <label for="cal3">Calificacion 3er bimestre </label>
+            <input type="text" class="form-control" id="calificacion3" name="calificacion3" required>
             <br>
-            <button class="btn btn-primary">Agregar</button>
+            <button class="btn btn-primary" id="btnGuardarCategoria">Agregar</button>
         </form>
       </div>
       <div class="modal-footer">
