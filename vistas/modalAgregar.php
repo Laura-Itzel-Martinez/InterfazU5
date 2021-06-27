@@ -11,10 +11,10 @@
       <div class="modal-body">
         <form id="frmAgregaAlumno"  method="POST" onsubmit="return agregarNuevoAlumno()">
 
-            <label for="nombre">Nombre del alumnno</label>
+            <label for="nombre">Nombre del alumno</label>
             <input type="text" class="form-control" id="nombre" name="nombre" required  >
 
-            <label for="apellido">Apellidos del alumnno</label>
+            <label for="apellido">Apellidos del alumno</label>
             <input type="text" class="form-control" id="apellido" name="apellido" required  >
 
             <label for="cal1">Calificacion 1er bimestre</label>

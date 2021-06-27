@@ -9,7 +9,7 @@
     <table class="table table-condensed table-hover" id="personasDataTable">
         <thead>
             <th>Nombre del alumno</th>
-            <th>Apellidos del alumnno</th>
+            <th>Apellidos del alumno</th>
             <th>Calificacion 1er bimestre</th>
             <th>Calificacion 2do bimestre</th>
             <th>Calificacion 3er bimestre</th>
